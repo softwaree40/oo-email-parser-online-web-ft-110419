@@ -9,13 +9,13 @@ class EmailAddressParser
     def initialize(email)
         @emails = email
         @all = []
-        
+        binding.pry
     end
   
   def parse
       @emails.split.each do|email|
       @all << email
-        binding.pry
+        
       end
    
     end
