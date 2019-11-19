@@ -14,7 +14,7 @@ class EmailAddressParser
   
   def parse
       
-       @all << email
+       
       end
    
   end
