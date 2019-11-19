@@ -8,16 +8,17 @@ class EmailAddressParser
      attr_accessor:emails 
     def initialize(email)
         @emails = email
-        @all = []
-        binding.pry
+        
+        
     end
   
   def parse
-      @emails.split.each do|email|
-      @all << email
-        
+      
+       @all 
       end
    
     end
-    @all
+    
 end
+email_addresses = "john@doe.com, person@somewhere.org"
+parser = EmailAddressParser.new(email_addresses)
