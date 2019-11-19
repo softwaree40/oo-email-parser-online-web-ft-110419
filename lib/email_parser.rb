@@ -9,7 +9,7 @@ class EmailAddressParser
     def initialize(email)
         @emails = email
         
-        #binding.pry
+        binding.pry
     end
   
   def parse
