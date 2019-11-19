@@ -13,11 +13,8 @@ class EmailAddressParser
     end
   
   def parse
-     @all << self
-   
-     
-    
       
-   end
+   
+    end
    #binding.pry
 end
