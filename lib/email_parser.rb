@@ -8,13 +8,13 @@ class EmailAddressParser
      attr_accessor:emails 
     def initialize(email)
         @emails = email
-        
+        @all = []
         
     end
   
   def parse
       
-       @all 
+       @all << self
       end
    
   end
