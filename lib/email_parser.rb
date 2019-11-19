@@ -13,7 +13,9 @@ class EmailAddressParser
     end
   
   def parse
-      
+      @emails.each_char do|email|
+        
+      end
    
     end
    #binding.pry
