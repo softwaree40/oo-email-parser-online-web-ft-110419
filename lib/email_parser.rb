@@ -9,12 +9,12 @@ class EmailAddressParser
     def initialize(email)
         @emails = email
         
-        binding.pry
+        
     end
   
   def parse
       @emails.each_char do|email|
-        
+        binding.pry
       end
    
     end
