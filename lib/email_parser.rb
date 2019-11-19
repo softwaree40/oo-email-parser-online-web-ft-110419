@@ -14,9 +14,10 @@ class EmailAddressParser
   
   def parse
       @emails.split.each do|email|
+      @all << email
         binding.pry
       end
    
     end
-   #binding.pry
+    
 end
